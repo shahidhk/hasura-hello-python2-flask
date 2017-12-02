@@ -1,9 +1,9 @@
+from __future__ import print_function
+
 from flask import Blueprint
 import json
 import requests
 from .config import dataUrl, dataHeaders
-
-from __future__ import print_function
 
 hasura_examples = Blueprint('hasura_examples', __name__)
 
