@@ -1,6 +1,6 @@
-# hello-python-flask
+# hello-python2-flask
 
-This project consists of a basic hasura project with a simple flask app running on it. Once this app is deployed on a Hasura cluster, you will have the flask app running at [https://app.cluster-name.hasura-app.io](https://app.cluster-name.hasura-app.io).
+This project consists of a basic hasura project with a simple flask app (on python2) running on it. Once this app is deployed on a Hasura cluster, you will have the flask app running at [https://app.cluster-name.hasura-app.io](https://app.cluster-name.hasura-app.io).
 
 This is the right place to start if you are planning to build or want to learn to build a flask app with hasura.
 
@@ -30,14 +30,14 @@ Follow this section to get this project working. Before you begin, ensure you ha
 ### Step 1: Getting the project
 
 ```sh
-$ hasura quickstart hello-python-flask
-$ cd hello-python-flask
+$ hasura quickstart hello-python2-flask
+$ cd hello-python2-flask
 ```
 
 The above command does the following:
-1. Creates a new folder in the current working directory called `hello-python-flask`
+1. Creates a new folder in the current working directory called `hello-python2-flask`
 2. Creates a new free hasura cluster for you and sets that cluster as the default cluster for this project
-3. Initializes `hello-python-flask` as a git repository and adds the necessary git remotes.
+3. Initializes `hello-python2-flask` as a git repository and adds the necessary git remotes.
 
 ### Step 2: Getting cluster information
 
@@ -173,7 +173,7 @@ app
 
 
 
-- `cd path-to-hello-python-flask`
+- `cd path-to-hello-python2-flask`
 - `git add . && git commit -m "Migration Commit"`
 - `git push hasura master`
 

@@ -1,5 +1,5 @@
-description: A starter kit for python-flask with a sample schema and integration with
+description: A starter kit for python2-flask with a sample schema and integration with
   Hasura data APIs.
-keywords: python, flask, getting-started
-name: hello-python-flask
-platformVersion: v0.15.7
+keywords: python2, python, flask, getting-started
+name: hello-python2-flask
+platformVersion: v0.15.16
