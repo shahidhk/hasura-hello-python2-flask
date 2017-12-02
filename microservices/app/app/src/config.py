@@ -1,5 +1,7 @@
 import os
 
+from __future__ import print_function
+
 try:
    if os.environ["PRODUCTION"]:
       dataUrl = "http://data.hasura/v1/query"
